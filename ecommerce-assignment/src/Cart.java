@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -6,6 +7,7 @@ public class Cart {
 
     public Map<Product, Integer> add(Product product, int quantityAdded){
 
+        if(product.getExpireDate().isBefore(LocalDate.now())){ throw new RuntimeException("Product is Expired!");}
 
         int quantityAvailable = product.getQuantity();
         String productName = product.getName();

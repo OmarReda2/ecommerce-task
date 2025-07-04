@@ -4,22 +4,24 @@ public class Checkout {
 
     public static void checkout(Customer customer, Cart cart){
 
-            double shippingPrice = ShippingService.calcShipmentReciept(cart.getCartMap());
+        if (cart.getCartMap().isEmpty()){ throw new RuntimeException("Cart is Empty! Add some items");}
 
-            System.out.println("");
-            double allItemTotalPrice = calcRecipt(cart);
-            allItemTotalPrice = allItemTotalPrice + shippingPrice;
+        double shippingPrice = ShippingService.calcShipmentReciept(cart.getCartMap());
 
-            System.out.println("----------------------------------------");
-            System.out.println("SubTotal                " + allItemTotalPrice);
-            if (shippingPrice != 0)
-                System.out.println("Shipping                " + shippingPrice);
-            System.out.println("Amount                " + allItemTotalPrice);
-            System.out.println("");
+        System.out.println("");
+        double allItemTotalPrice = calcRecipt(cart);
+        allItemTotalPrice = allItemTotalPrice + shippingPrice;
+
+        System.out.println("----------------------------------------");
+        System.out.println("SubTotal                " + allItemTotalPrice);
+        if (shippingPrice != 0)
+            System.out.println("Shipping                " + shippingPrice);
+        System.out.println("Amount                " + allItemTotalPrice);
+        System.out.println("");
 
 
-            checkCustomerBalance(customer, allItemTotalPrice);
-            customer.setCart(cart);
+        checkCustomerBalance(customer, allItemTotalPrice);
+        customer.setCart(cart);
     }
 
 
