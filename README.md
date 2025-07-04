@@ -1,6 +1,6 @@
 
 
-# 1- E-Commerce Management System
+# E-Commerce System
 Ecommerce System Using Java
 
 
