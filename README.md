@@ -7,9 +7,9 @@ Ecommerce System Using Java
 
 ## Note 
 I have build ecommerce full stack with spring-boot, Angular and mysql with 2 versions. <br />
-**[v1](https://github.com/OmarReda2/springboot-angular-ecommerce-project-1)**: with Spring Data JPA. <br />
-**[v2](https://github.com/OmarReda2/springboot-angular-ecommerce-project-2)**: with pure Spring Hibernate which I have to create complex query to achieve all functionality in v1 <br />
-**you could also see my [linkedIn](https://www.linkedin.com/posts/omarreda01_springboot-hibernate-jpa-activity-7342232605280325632-fAyC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADozulkB2Mk6ac9T66YYXPftnqjprxmgdg4) post which explain in details key features and challanging for each project
+** [v1](https://github.com/OmarReda2/springboot-angular-ecommerce-project-1)**: with Spring Data JPA. <br />
+** [v2](https://github.com/OmarReda2/springboot-angular-ecommerce-project-2)**: with pure Spring Hibernate which I have to create complex query to achieve all functionality in v1 <br />
+** you could also see my [linkedIn](https://www.linkedin.com/posts/omarreda01_springboot-hibernate-jpa-activity-7342232605280325632-fAyC?utm_source=share&utm_medium=member_desktop&rcm=ACoAADozulkB2Mk6ac9T66YYXPftnqjprxmgdg4) post which explain in details key features and challanging for each project
 
 ## Key Features
   * Customers abble to add products to cart with specific quantity not more than the available product quantity.  <br />
