@@ -3,7 +3,7 @@
 # 1- E-Commerce Management System
 Ecommerce System Using Java
 
----
+
 
 ## Note 
 I have build ecommerce full stack with spring-boot, Angular and mysql with 2 versions. <br />
@@ -17,7 +17,7 @@ I have build ecommerce full stack with spring-boot, Angular and mysql with 2 ver
   * Customer can see their full Checkout <br />
   * error handling.
 
-## test cases
+## Test cases
 # 1- default case: customer adding products to cart and make checkout
 ![Screenshot 2025-07-05 000007](https://github.com/user-attachments/assets/31f9a418-fc74-48de-a3e1-df1a4daa5b22)
 
